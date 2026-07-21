@@ -1,55 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <form action="">
         <h2>Registration Form</h2>
         <div>
-            <label for="First_Name" id="First_Name" >First Name:</label>
+            <label for="First_Name" id="First_Name">First Name:* </label>
             <input type="text" placeholder="First Name" required>
         </div>
+        <br>
         <div>
-            <label for="Last_Name" id="Last_Name">Last Name:</label>
+            <label for="Last_Name" id="Last_Name">Last Name:* </label>
             <input type="text" placeholder="Last Name" required>
         </div>
+        <br>
         <div>
-            <label for="email" id="email">Email Address:</label>
-            <input type="email" placeholder="Email"required>
+            <label for="email" id="email">Email Address:* </label>
+            <input type="email" placeholder="Email" required>
         </div>
+        <br>
         <div>
-            <label for="password" id="password">Password:</label>
+            <label for="password" id="password">Password:* </label>
             <input type="password" placeholder="password" required>
         </div>
+        <br>
         <div>
-            <label for="confirm password" id="confirm password">Confirm Password:</label>
+            <label for="confirm password" id="confirm password">Confirm Password:* </label>
             <input type="password" placeholder="confirm password" required>
         </div>
+        <br>
         <div>
-            <label for="birthday" id="birthday">Birthday:</label>
+            <label for="birthday" id="birthday">Birthday:* </label>
             <input type="date" placeholder="birthday" required>
         </div>
+        <br>
         <div>
             <label for="gender identify" id="gender_identify">Gender:</label>
             <input type="radio" name="gender" id="male">
-            <label for="male" >male</label>
+            <label for="male">male</label>
             <input type="radio" name="gender" id="female">
-            <label for="female" >female</label>
+            <label for="female">female</label>
             <input type="radio" name="gender" id="not">
-            <label for="not" >Non-binary</label>
+            <label for="not">Non-binary</label>
             <input type="radio" name="gender" id="not answer">
-            <label for="not answer" >I prefer not to answer</label>
+            <label for="not answer">I prefer not to answer</label>
         </div>
+        <br>
         <div>
-            <textarea name="comment" id="comment" cols="50" rows="5">A short description about youself: </textarea required
+            <h4>A short description about youself: </h4>
+            <textarea name="comment" id="comment" cols="50" rows="5"></textarea required>
         </div>
+        <br>
         <div>
-            <input type="checkbox" name="approve" id="approve"required>
-            <label for="approve"  >Yes, I would like to receive piriodic email updates</label>
+            <label for="fav-lang">Favorite language:</label>
+            <select id="fav-lang" name="favorite_language">
+            <option value="java" selected>Java</option>
+            <option value="python">Python</option>
+            <option value="c++">C++</option>
+            <option value="javascript">JavaScript</option>
+            </select>
         </div>
+        <br>
+        <div>
+            <input type="checkbox" name="approve" id="approve">
+            <label for="approve">Yes, I would like to receive piriodic email updates</label>
+        </div>
+        <br>
+        <div class="raghad"></div>
         <button>Creat Account</button>
     </form>
     
