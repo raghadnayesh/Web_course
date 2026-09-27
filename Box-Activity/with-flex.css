@@ -1,0 +1,53 @@
+.baby-blue-box{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;         
+    padding: 15px;
+    width: 600px;
+    height: 500px;
+    background-color: rgb(137, 175, 245);
+}
+
+.green-box{
+    height: 80px;
+    background-color: green;
+}
+
+.blue-pink-container{
+    display: flex;
+    gap: 15px;
+    flex: 1;
+}
+
+.blue-box{
+    width: 150px;
+    background-color: blue;
+}
+
+.pink-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: pink;
+    flex: 1;
+}
+
+.yellow-container{
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px;
+}
+
+.yellow-box{
+    flex: 1;
+    height: 240px;
+    background-color: yellow;
+    
+}
+
+.red-box{
+    height: 120px;
+    gap: 10px;
+    background-color: red;
+}
