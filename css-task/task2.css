@@ -1,0 +1,14 @@
+#button1{
+    border-radius: 30%;
+    border-color: deeppink;
+    background-color: darksalmon;
+}
+#button2{
+    border-radius: 100%;
+    background-color: blueviolet;
+
+}
+#button3{
+    border: 3px solid black;
+    background-color: rgb(5, 70, 25);
+}

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.parent{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: sticky;
+    top: 100px;
+    left: 100px;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}

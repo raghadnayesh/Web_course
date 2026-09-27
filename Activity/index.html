@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <h1 class="activity">Activity</h1>
+        <textarea class="search" style="height: 16px; width: 558px;">Search</textarea>
+        <button class="logout">Logout</button>
+    </nav>
+    
+    <div class="container">
+        <div class="left-box">
+            <div class="welcome-box">
+                <h2 class="welcome">Welcome</h2>
+                <p class="part-of-speech">noun</p>
+                <p class="plural">Plural: <em>Engineers</em></p>
+                <button class="13-likes">13 Likes</button>
+            </div>
+            <div class="first-card-left">
+                <p class="practitoner-skilled">A practitoner skilled in the<a href="#">Japanese</a>art of <a href="#">ninjutsu</a></p>
+            </div>
+        </div>
+        <div class="right-box">
+            <h3 class="javascript">JavaScript is defined by YOU</h3>
+            <button class="add-definition">Add Definition</button>
+        </div>
+    </div>
+    <div class="seconed-box">
+        <h2>Engineer</h2>
+        <h5>noun</h5>
+        <h5>Plural: Engineers</h5>
+        <button class="engineer-btn" onclick="alert('you clicked this button')">37 likes</button>
+    </div>
+    <div class="third-box">
+        <h2>Some User</h2>
+        <p><span id="likes">3</span> likes</p>
+        <button class="some-user-btn" onclick="addLike(this)">Like</button>
+    </div>
+
+</body>
+
+</html>

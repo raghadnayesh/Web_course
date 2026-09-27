@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+   background-color: darksalmon; 
+}
+.first{
+    padding: 20px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    background-color: rgba(164, 7, 172, 0.541);
+}
+.seconed{
+    padding: 20px;
+    background-color: rgba(10, 187, 161, 0.612);
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.third{
+    padding: 20px;
+    background-color: rgba(200, 14, 163, 0.597);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around; 
+}
+nav{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+h2{
+    display: flex;
+    justify-content: space-between;
+}
+#home{
+    display: flex;
+    flex-direction: row;
+}
+#myProfile{
+    display: flex;
+    flex-direction: row;
+}
+#findConnection{
+    display: flex;
+    flex-direction: row;
+}

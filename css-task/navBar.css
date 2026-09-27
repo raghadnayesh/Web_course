@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #222222;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+    width: 100%;
+}
+
+h1 {
+    font-family: "Bitter", serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#part {
+    display: flex;
+    gap: 30px;
+    margin-left: auto; 
+    margin-right: 30px; 
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-family: "Bitter", serif;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+button.sign-out {
+    background-color: #00bcd4;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 8px 20px;
+    font-family: "Bitter", serif;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px #000000;
+    font-weight: 500;
+}

@@ -1,0 +1,100 @@
+*{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0;
+}
+/*Nav style*/
+nav{
+    background-color: rgba(195, 194, 194, 0.878);
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.activity{
+    font-family: sans-serif;
+}
+.search{
+    background-color: #ffffff;
+    border: 2px solid black;
+    color: #a09797;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logout{
+    width: fit-content;
+    height: fit-content;
+    color: #ffffff;
+    background-color: rgb(94, 94, 248);
+    border: 2px solid black;
+    font-family: sans-serif;
+    box-shadow: 2px 2px 0px #000;
+}
+
+/*First Box */
+.container{
+    display: flex;
+    gap: 0px;
+    margin-top: 20px;
+    margin-left: 0px;
+    align-items: flex-start;
+}
+.left-box{
+    border: 2px solid black;
+    font-family: sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    flex: 3;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.first-card-left{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.right-box{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    font-family: sans-serif;
+    background-color: #ffffff;
+    width: 100%;
+
+}
+
+/*Seconed Box*/
+.seconed-box{
+     border: 2px solid black;
+    font-family: sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    flex: 3;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/*Third Box*/
+.third-box{
+    border: 2px solid black;
+    font-family: sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    flex: 3;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
